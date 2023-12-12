@@ -12,8 +12,8 @@ jobs:
   build:
     env:
       # These are fake certificates and app IDs for testing
-      APP_CERTIFICATE: 77be7e16f7482cef9fe796205b85831e
-      APP_ID: 6ce46dd303d54056a52f9a34c13c547e
+      APP_CERTIFICATE: e0a3fd1ec6b84be7bc5a3600602d0ee9
+      APP_ID: 124c6944658541ad943ee2632b74e7f8
     name: Build
     runs-on: ubuntu-latest
     steps:

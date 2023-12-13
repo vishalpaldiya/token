@@ -7,8 +7,8 @@ import (
 )
 
 func CreateTestService(t *testing.T) *Service {
-	appIdEnv, appIDExists := os.LookupEnv("APP_ID")
-	appCertEnv, appCertExists := os.LookupEnv("APP_CERTIFICATE")
+	appIdEnv, appIDExists := os.LookupEnv("124c6944658541ad943ee2632b74e7f8")
+	appCertEnv, appCertExists := os.LookupEnv("e0a3fd1ec6b84be7bc5a3600602d0ee9")
 	if !appIDExists || !appCertExists {
 		t.Errorf("check appId or appCertificate")
 	}
